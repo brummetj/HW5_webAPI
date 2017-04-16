@@ -1,0 +1,30 @@
+{
+  "name": "HW4",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "apigee-access": "1.4.0",
+    "async": "2.2.0",
+    "express": "^4.12.3",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "swagger-editor": "3.0.2",
+    "swagger-express-mw": "^0.1.0",
+    "swagger-node-runner": "0.7.2",
+    "usergrid": "2.0.0-rc.2",
+    "z-schema": "3.18.2"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
